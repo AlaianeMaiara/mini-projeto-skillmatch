@@ -154,4 +154,32 @@ function analisarVagas() {
       habilidadesFaltantes
     };
   });
+
+  // MELHOR VAGA: Utilizando o REDUCE
+  
+ 
+  const melhorVaga = resultados.reduce((melhor, atual) => {
+    if (atual.compatibilidade > melhor.compatibilidade) {
+      return atual;
+    }
+    return melhor;
+  });
+ 
+  console.log("\n A VAGA MAIS COMPATÍVEL É:");
+  console.log(`${melhorVaga.vaga.empresa} - ${melhorVaga.vaga.cargo}`);
+  console.log(`Compatibilidade: ${melhorVaga.compatibilidade.toFixed(0)}%`);
+ 
+  
+  // Recomendação de estudo
+  
+ 
+  const habilidadesParaEstudar = resultados.flatMap(
+    (resultado) => resultado.habilidadesFaltantes
+  );
+ 
+  const habilidadesUnicas = [...new Set(habilidadesParaEstudar)];
+ 
+  console.log("\n AQUI ESTÁ A RECOMENDAÇÃO DE ESTUDO: ");
+  console.log(`Priorize estudar: ${habilidadesUnicas.join(", ")}`);
 }
+ 
