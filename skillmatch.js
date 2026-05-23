@@ -97,7 +97,7 @@ function criarContadorDeAnalises() {
   };
 }
  
-const contasrAnalises = criarContadorDeAnalises();
+const contarAnalises = criarContadorDeAnalises();
  
 // ANALISAR VAGAS
  
