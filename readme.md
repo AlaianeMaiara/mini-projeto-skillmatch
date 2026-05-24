@@ -136,7 +136,7 @@ Feito por Alaiane Maiara — estudante de Desenvolvimento Front-End [REACT] - T1
 ## Vídeo de demonstração
 
 Link do vídeo:
-[Ainda não realizado]
+[(https://youtu.be/Ykpl4HIodtI)]
 
 ## KANBAN:
 Link do KANBAN:
