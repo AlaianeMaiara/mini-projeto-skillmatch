@@ -79,17 +79,9 @@ O projeto foi organizado em etapas:
 
 Este projeto não precisa de instalação.
 
-Você pode executar de duas formas:
+Você pode executar da seguinte forma:
 
-### Opção 1 — pelo console do navegador
-
-1. Abrir o navegador Google Chrome
-2. Pressionar F12 ou Ctrl + Shift + J
-3. Abrir a aba Console
-4. Copiar o código do arquivo skillmatch.js
-5. Colar no console e pressionar Enter
-
-### Opção 2 — VS Code com Node.js
+###  VS Code com Node.js
 
 1. Abra o projeto no VS Code;
 2. Abra o terminal;
